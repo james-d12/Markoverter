@@ -3,10 +3,12 @@
 
     --color-bg: #14191f;
     --color-sidebar-bg: #1c2229;
+    --color-sidebar-entry-hover: #696363;
     --color-navbar-bg: #14191f;
     --color-navbar-border: #e8e6e3;
+    --color-container-bg: #1e2630;
 
-    --color-scrollbar-tr-bg: #1c2229;
+    --color-scrollbar-tr-bg: #2a3644;
     --color-scrollbar-th-bg: #888;
     --color-scrollbar-hover-bg: #555;
 }
@@ -16,8 +18,10 @@
     
     --color-bg: white;
     --color-sidebar-bg: #fdf9f4;
+    --color-sidebar-entry-hover: #948f8f;
     --color-navbar-bg: white;
     --color-navbar-border: black;
+    --color-container-bg: rgb(248, 244, 244);
 
     --color-scrollbar-tr-bg: #f3f0ec;
     --color-scrollbar-th-bg: #cfcdcb;

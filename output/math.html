@@ -1,16 +1,78 @@
-<h1>Math</h1>
-<p>The mathematics part of the library contains various functionality including but not limited to linear algebra, constants, geometry and more! It aims to provide generic class representations of mathematical objects such as shapes and custom containers like vectors and matrices not seen in the standard library.</p>
-<h2>Features</h2>
-<p><strong>Matrices</strong>
-- Can create NxM matrices of type T.
-- Supports row and column major ordering for matrices. 
-- Can be managed using fixed or dynamic memory management, and work together. 
-- Matrix Arithmetic operations can be performed between varying types of matrices. (e.g. dynamic 4x3 integer matrix multiplied by a fixed 3x4 real matrix)#</p>
-<p><strong>Vectors</strong>
-- Can create N-dimensional vectors of type T 
-- Can and can be managed using fixed or dynamic memory management. 
-- Arithmetic and comparison operations can be performed between varying types and dimensions of vectors. (e.g. a vector4 multiplied by a vector2)</p>
-<p><strong>Other</strong>
-- Can create Quarternions of type T (Fixed as quarternions have a fixed number of components - x,y,w,z)
-- Contains basic structures for geometrical structures like rays, segments and lines.
-- Contains basic random number generation for a variety of arithmetic types.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="A Document">
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link href="public/css/style.css" rel="stylesheet">
+    <link href="public/css/effects.css" rel="stylesheet">
+
+    <title>Markoverter</title> 
+</head>
+
+<body>
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-entry">
+            <ul>
+                
+                <li><a href="Geometry.html"><h1>Geometry</h1> </a></li>
+                
+                <li><a href="Installation.html"><h1>Installation</h1> </a></li>
+                
+                <li><a href="Math.html"><h1>Math</h1> </a></li>
+                
+                <li><a href="Matrices.html"><h1>Matrices</h1> </a></li>
+                
+                <li><a href="Sample.html"><h1>Sample</h1> </a></li>
+                
+
+            </ul>                
+        </div>
+    </div>
+
+    <div id="navbar" class="navbar">
+      <button onclick="toggleSidebar();" aria-label="Toggles the Sidebar" title="Toggle Sidebar"><i class="fas fa-bars"></i></button> 
+
+      <div class="dropdown"><button aria-label="Shows a List of Themes"><i class="fas fa-palette"></i></button> 
+          <div class="dropdown-content">
+              <button onclick="setTheme('theme-dark');" aria-label="Sets the Theme to Dark" title="Toggles Dark Theme">Dark</button> 
+              <button onclick="setTheme('theme-light');" aria-label="Sets the Theme to Light" title="Toggles Light Theme">Light</button> 
+              <button onclick="setTheme('theme-dracula');" aria-label="Sets the Theme to Dracula" title="Toggles Dracula Theme">Dracula</button> 
+          </div>
+      </div>
+  </div>
+
+    <div id="container" class="container">
+        <div class="paragraph">
+            <h1 id="math">Math</h1>
+<p>The mathematics part of the library contains various functionality including but not limited to linear algebra, constants, geometry and more! It aims to provide generic class representations of mathematical objects such as shapes and custom containers like vectors and matrices not seen in the standard library. </p>
+<hr />
+<h2 id="features">Features</h2>
+<p><strong>Matrices</strong></p>
+<ul>
+<li>Can create NxM matrices of type T.</li>
+<li>Supports row and column major ordering for matrices. </li>
+<li>Can be managed using fixed or dynamic memory management, and work together. </li>
+<li>Matrix Arithmetic operations can be performed between varying types of matrices. (e.g. dynamic 4x3 integer matrix multiplied by a fixed 3x4 real matrix)#</li>
+</ul>
+<p><strong>Vectors</strong></p>
+<ul>
+<li>Can create N-dimensional vectors of type T </li>
+<li>Can and can be managed using fixed or dynamic memory management. </li>
+<li>Arithmetic and comparison operations can be performed between varying types and dimensions of vectors. (e.g. a vector4 multiplied by a vector2)</li>
+</ul>
+<p><strong>Other</strong></p>
+<ul>
+<li>Can create Quarternions of type T (Fixed as quarternions have a fixed number of components - x,y,w,z)</li>
+<li>Contains basic structures for geometrical structures like rays, segments and lines.</li>
+<li>Contains basic random number generation for a variety of arithmetic types.</li>
+</ul>
+<p><img alt="alt text" src="https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg" title="Logo Title Text 1" /></p>
+        </div>
+    </div>
+</body>
+
+<script src="public/js/utility.js"></script>
+</html>
